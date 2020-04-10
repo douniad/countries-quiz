@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border-radius: 1%;
+  }
+
+  body {
+    font-family: 'Patrick Hand', cursive;
+    text-transform: uppercase;
+    color: #371d0d;
+    background-color: #37A9FB;
+  }
+  
+  .header {
+    text-align: center;
+  }
+
+.little {
+  max-width: 240px;
+}
+  
+  .header li {
+    display: inline-block;
+    margin: 16px;
+    list-style: none;
+    font-size: 20px;
+  }
+  
+  
+  .globeBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+    background: url(images/sunrise.jpeg) fixed;
+    border: 0.1em #371d0d solid;
+  }
+  
+  .startQuiz, .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin: auto;
+    padding: 16px;
+    border: 1px #371d0d solid;
+    background-color: #37A9FB;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    padding: 8px;
+    cursor: pointer;
+  }
+
+  .images {
+    margin-bottom: 8px;
+    width: 90%;
+    max-width: 240px;
+  }
+  
+  h1, h3, legend {
+    margin-bottom: 8px;
+  }
+  
+  .answerOption {
+    margin-top: 8px;
+  }
+  
+  .button {
+    margin-left: auto;
+    margin-right: auto;
+    height: 48px;
+    cursor: pointer;
+    font-family: 'Patrick Hand', cursive;
+    text-transform: uppercase;
+    border: 1px #C6EF26 solid;
+    background-color: #C1EF26;
+    color: #ffffff;
+  }
+  
+  .button:hover, .button:active {
+    background-color: #10ce29;
+    color: #ffffff;
+    border: 1px #10ce29 solid;
+  }
+  
+  .final {
+    display: block;
+  }
+  
+  @media only screen and (min-width: 320px) {
+  
+    .globeBox {
+      width: 90%;
+      height: 496px;
+      margin-top: 16px;
+      margin-bottom: 16px;
+      padding-top: 12px;
+      padding-bottom: 12px;
+    }
+  
+    .box {
+      width: 90%;
+      height: 90%;
+    }
+  
+    .images {
+      width: 85%;
+    }
+  
+    .button {
+      margin-top: 8px;
+      font-size: 16px;
+      width: 128px;
+      height: 40px;
+    }
+  
+    h1, h3, legend {
+      font-size: 16px;
+    }
+  
+    .header li {
+      font-size: 16px;
+    }
+  
+    .keepTrack {
+      font-size: 14px;
+      margin: 1px;
+    }
+  }
+  
+  @media only screen and (min-width: 550px) {
+   
+   .littlepics {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+   }
+   
+   
+    .globeBox {
+      width: 472px;
+      height: 504px;
+      padding-top: 41px;
+      padding-bottom: 41px;
+    }
+  
+    .box {
+      width: 85%;
+      height: 98%;
+    }
+  
+    .button {
+      margin-top: 16px;
+      font-size: 16px;
+      width: 160px;
+      height: 40px;
+    }
+  
+    h1, h3, legend {
+      font-size: 16px;
+    }
+  
+    .keepTrack {
+      font-size: 14px;
+    }
+  }
+  
+  @media only screen and (min-width: 800px) {  
+
+    .header li {
+      margin: 16px;
+      font-size: 20px;
+    }
+
+    .littlepics {
+      display: flex;
+      flex-direction: row;
+     justify-content: space-between;
+    }
+
+    .globeBox {
+      width: 560px;
+      height: 608px;
+    }
+  
+    .box {
+      width: 85%;
+      height: 95%;
+    }
+  
+    h1, h3, legend {
+      font-size: 1.3em;
+    }
+  
+    .keepTrack {
+      font-size: 20px;
+    }
+  
+    .button {
+      margin-top: 16px;
+      margin-bottom: 16px;
+      width: 192px;
+      font-size: 19px;
+    }
+  }
