@@ -212,7 +212,7 @@ const STORE = [
   function correctAnswer() {
     $('.response').html(
       `<h3>Your answer is correct!</h3>
-      <img src="images/thumbsup.jpeg" alt="thumbs up" class="images" width="200px">
+      <img src="images/thumbsup.jpg" alt="thumbs up" class="images" width="200px">
         <p class="keepTrack">Well done!</p>
         <button type="button" class="nextButton button">Next</button>`
     );
@@ -222,7 +222,7 @@ const STORE = [
   function wrongAnswer() {
     $('.response').html(
       `<h3>Your answer is incorrect</h3>
-      <img src="images/thumbsdown.jpeg" alt="thumbs down" class="images" width="200px">
+      <img src="images/thumbsdown.jpg" alt="thumbs down" class="images" width="200px">
       <p class="keepTrack">The correct answer is:</p>
       <p class="keepTrack">${STORE[questionNumber].correctAnswer}</p>
       <button type="button" class="nextButton button">Next</button>`
@@ -234,28 +234,28 @@ const STORE = [
   
     const awesome = [
       'Awesome!',
-      'images/globetrotter.jpeg',
+      'images/globetrotter.jpg',
       'globetrotter',
       'You are a true globetrotter!'
     ];
   
     const good = [
       'Good job!',
-      'images/map.jpeg',
+      'images/map.jpg',
       'map',
       'I would not trust you with a map just yet...'
     ];
 
     const alright = [
        'Good enough, I guess',
-       'images/lost.jpeg',
+       'images/lost.jpg',
        'lost tourists',
        'Maybe call a guide?'
     ];
   
     const bad = [
       'Uh oh...',
-      'images/bad.jpeg',
+      'images/bad.jpg',
       'bad student',
       'Looks like someone skipped geography...'
     ];
