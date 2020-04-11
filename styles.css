@@ -16,6 +16,7 @@
     text-align: center;
   }
 
+
 .little {
   max-width: 240px;
 }
@@ -96,7 +97,6 @@
   }
   
   @media only screen and (min-width: 320px) {
-  
     .globeBox {
       width: 90%;
       height: 496px;
