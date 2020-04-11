@@ -81,15 +81,15 @@
     cursor: pointer;
     font-family: 'Patrick Hand', cursive;
     text-transform: uppercase;
-    border: 1px #C6EF26 solid;
-    background-color: #C1EF26;
+    border: 1px #10ce29 solid;
+    background-color: #10ce29;
     color: #ffffff;
   }
   
   .button:hover, .button:active {
-    background-color: #10ce29;
-    color: #ffffff;
-    border: 1px #10ce29 solid;
+    background-color: #C1EF26;
+    color: black;
+    border: 1px #C1EF26 solid;
   }
   
   .final {
